@@ -1,0 +1,28 @@
+{
+  "name": "@dgoguerra/fzf",
+  "description": "Node interface to fzf",
+  "version": "0.0.1",
+  "keywords": [
+    "fzf"
+  ],
+  "author": "Diego Guerra <dgoguerra.or@gmail.com>",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "prettier --write \"**/*.js\"",
+    "postinstall": "node ./lib/install-fzf.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "debug": "^4.3.3",
+    "prettier": "^2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgoguerra/fzf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dgoguerra/fzf/issues"
+  },
+  "homepage": "https://github.com/dgoguerra/fzf#readme"
+}
